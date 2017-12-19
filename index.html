@@ -2,40 +2,79 @@
 <html>
 <head>
   <title>Portfolio | Lisa-Caton</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Material Design Lite -->
+   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
+   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+   <!-- Font Awesome -->
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   <!-- Custom Styles -->
+   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <header>
+  <header class="mdl-layout__header mdl-layout__header--transparent">
     <h1>Lisa-Caton</h1>
-    <p class="slogan">"Talented dev of JavaScript and Ruby"</p>
+    <!-- <img src="../portfolio/images/background-image.jpg"/> -->
+    <p class="slogan">"Killer dev woman of JS and Ruby"</p>
   </header>
-  <main>
-    <div class="project featured-project">
-         <h2><em>Featured</em> Project Name</h2>
-         <p>Project description text</p>
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
+  <main class="mdl-layout__content mdl-grid">
+    <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+        <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+            <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
+        </div><!--/mdl-cell mdl-cell-5-col mdl-cell-12-col-tablet-->
+        <div class="mdl-cell mdl-cell--7-col">
+          <h2 class="mdl-card__title-text"><em>Featured</em> Project Name</h2>
+        </div><!--mdl-cell mdl-cell-7-col-->
+          <p class="project-description mdl-card__supporting-text">Project description text</p>
+       </div><!--project featured-project mdl-grid mdl-cell mdl-cell-12-col mdl-cell-4-col-tablet mdl-card mdl-shadow-4dp-->
+       <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Project Name</h2>
+          </div><!--/mdl-card__title-->
+          <div class="mdl-card__supporting-text">Project description text</div>
        </div>
-       <div class="project">
-         <h2>Project 1 Name</h2>
-         <p>Project description text</p>
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
+       <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Project Name</h2>
+          </div><!--/mdl-card__title-->
+          <div class="mdl-card__supporting-text">Project description text</div>
        </div>
-       <div class="project">
-         <h2>Project 2 Name</h2>
-         <p>Project description text</p>
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
+       <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Project Name</h2>
+          </div><!--/mdl-card__title-->
+          <div class="mdl-card__supporting-text">Project description text</div>
        </div>
-       <div class="project">
-         <h2>Project 3 Name</h2>
-         <p>Project description text</p>
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-       </div>
-       <footer>
-         <ul>
-           <li> <a href="http://www.linkedin.com/in/lisa-caton-07759791" target="_blank">LinkedIn</a> </li>
-           <li> <a href="https://github.com/Lisa-Caton" target="_blank">GitHub</a> </li>
-           <li> <a href="https://www.facebook.com/lisa.caton.395" target="_blank">Facebook</a> </li>
-           <li> <a href="https://twitter.com/LisaCaton1" target="_blank">Twitter</a> </li>
-           <li> <a href="mailto:lisacaton01@gmail.com" target="_blank">Email</a> </li>
+       <footer class="mdl-mini-footer">
+         <ul class="mdl-mini-footer__link-list">
+           <li>
+             <a href="http://www.linkedin.com/in/lisa-caton-07759791" target="_blank">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+             </a>
+           </li>
+           <li>
+             <a href="https://github.com/Lisa-Caton" target="_blank">
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+             </a>
+           </li>
+           <li>
+             <a href="https://www.facebook.com/lisa.caton.395" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+             </a>
+           </li>
+           <li>
+             <a href="https://twitter.com/LisaCaton1" target="_blank">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+             </a>
+           </li>
+           <li>
+             <a href="mailto:lisacaton01@gmail.com" target="_blank">
+                <i class="fa fa-envelope-square" aria-hidden="true"></i>
+             </a>
+           </li>
          </ul>
      </footer>
   </main>
